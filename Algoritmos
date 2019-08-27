@@ -1,0 +1,53 @@
+Problema 1: Dado un precio calcular su descuento considerando que si su precio es mayor a 100 descontar un 10%, de lo 
+contrario solo un 2%
+
+Entrada: precio
+Salida: Precio con el descuento correspondiente
+
+Algoritmo:
+
+1-Leer el precio
+2-Si el numero es menor a 100, multiplicarlo por 0.02
+2.1: restar el valor obtenido al precio original
+2.2: imprimir el resultado final. 
+3- Si el precio es mayor a 100, multiplicarlo por 0.10 
+3.1: restar el valor obtenido al precio original 
+3.2: imprimir el resultado final.
+
+
+Problema 2: Un algoritmo que lea dos mineros y que de su suma, resta, multiplicación y división de los números
+
+Entrada: num1,  num2, resta, suma, mult, division. 
+Salida: resta, suma, multiplicación y división de los dos números.
+
+Algoritmo:
+
+1- Leer los dos numeres ingresados
+2- restar el primer numero por el segundo
+2.1- colocar el resultado obtenido en la variable resta
+3- sumar el primer numero por el segundo 
+3.1- colocar el resultado obtenido en la variable suma
+4- multiplicar el primer numero por el segundo
+4.1- colocar el resultado obtenido en la variable mult
+5- realizar la división del primer numero con el segundo
+5.1- colocar el resultado obtenido en la variable division
+6- imprimir las variables resta, suma, mult y division.
+
+
+Problema 3: Leer 3 números que denotan una fecha, y verificar si es una fecha valida 
+
+Entrada: num1, num2 y num3.
+Salida: es o no una fecha valida.
+
+Algoritmo:
+
+1- Leer los 3 números ingresados
+2- Si el primer numero ingresado es mayor a 31 no es una fecha valida
+3- Si el segundo numero ingresado es mayor a 12 tampoco es una fecha valida
+4- Si alguno de los dos caos anteriores se llegan a cumplir significa que no presentan una fecha valida
+4.1- Imprimir “Los números ingresados no representan una fecha valida”.
+5- Si el segundo numero ingresado es 2:
+5.1- Si el primer numero ingresado es mayor a 28:
+5.- imprimir "Los numeros ingresados no representan una fecha valida".
+6- Si ninguno de los dos casos anteriores son validos entonces los números ingresados son de una fecha valida.
+7- imprimir “Los números ingresados representan un fecha valida.
