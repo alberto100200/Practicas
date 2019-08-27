@@ -7,10 +7,10 @@ Salida: Precio con el descuento correspondiente
 Algoritmo:
 
 1-Leer el precio
-2-Si el numero es menor a 100, multiplicarlo por 0.02
+2-Si el numero leido es menor a 100, multiplicarlo por 0.02
 2.1: restar el valor obtenido al precio original
 2.2: imprimir el resultado final. 
-3- Si el precio es mayor a 100, multiplicarlo por 0.10 
+3- Si el precio leido es mayor a 100, multiplicarlo por 0.10 
 3.1: restar el valor obtenido al precio original 
 3.2: imprimir el resultado final.
 
