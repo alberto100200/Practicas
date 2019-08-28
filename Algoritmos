@@ -1,18 +1,18 @@
 Problema 1: Dado un precio calcular su descuento considerando que si su precio es mayor a 100 descontar un 10%, de lo 
 contrario solo un 2%
 
-Entrada: precio
+Entrada: precio, descuento.
 Salida: Precio con el descuento correspondiente
 
 Algoritmo:
 
 1-Leer el precio
 2-Si el numero leido es menor a 100, multiplicarlo por 0.02
-2.1: restar el valor obtenido al precio original
-2.2: imprimir el resultado final. 
+2.1: restar el valor obtenido al precio original e ingresar el resultado a la variable descuento
+2.2: imprimir "el precio total es (descuento).
 3- Si el precio leido es mayor a 100, multiplicarlo por 0.10 
-3.1: restar el valor obtenido al precio original 
-3.2: imprimir el resultado final.
+3.1: restar el valor obtenido al precio original e ingresar el resultado a la variable descuento
+3.2: imprimir "el precio total es (descuento)".
 
 
 Problema 2: Un algoritmo que lea dos mineros y que de su suma, resta, multiplicación y división de los números
@@ -50,4 +50,4 @@ Algoritmo:
 5.1- Si el primer numero ingresado es mayor a 28:
 5.- imprimir "Los numeros ingresados no representan una fecha valida".
 6- Si ninguno de los dos casos anteriores son validos entonces los números ingresados son de una fecha valida.
-7- imprimir “Los números ingresados representan un fecha valida.
+7- imprimir “Los números ingresados representan un fecha valida".
